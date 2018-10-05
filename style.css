@@ -1,120 +1,148 @@
 body {
   font-family: 'Open Sans', sans-serif;
- }
-
-header {
-  background-color: #a3dee4;
-  height: 50px;
-  width: 100%;
 }
 
-main {
+/*nav styles*/
+
+nav {
+  background-color: #a3dee4;
+  height: 50px;
+  width: 100vw;
+}
+
+.icon-div {
+  position: absolute;
+  left: 10px;
+}
+
+.icon {
+  border-radius: 100%;
+  height: 40px;
+  padding: 5px;
+  text-align: left;
+  width: 40px;
+}
+
+.nav-word-div {
+ float: right;
+}
+
+.nav-word {
+  color: white;
+  display: inline-block;
+  padding: 20px 15px;
+}
+
+/*header section style*/
+
+header {
   background-image: url(images/park.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
-  width: 100%;
+  width: 100vw;
 }
 
-aside {
-  height: 600px;
+.header-div {
+  padding: 100px 0px;
 }
 
 h1 {
   text-align: center
 }
 
-.icon {
-  text-align: left;
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
-  padding: 5px;
+.title-head {
+  font-size: 30pt;
+  margin: auto;
 }
 
-.head-div {
-  
-}
-
-.nav-span {
-  float: right;
-}
-
-.main-dog{
+.main-dog {
+  display: block;
   border-radius: 100%;
   border: 5px solid #528ca4;
-  position: relative;
-  left: 40%;
-  top: 50px;
+  margin: 20px auto;
 }
 
 .text-box {
+  text-align: center;
   height: 20px;
-  width: 100px;
+  width: 120px;
   background-color: white;
   border: #528ca4 solid 5px;
   color: #528ca4;
-  display: inline;
+  margin: auto;
+  
+}
+
+/*Begin style for main section of page*/
+
+main {
+  height: 450px;
 }
 
 .three-dog-div {
+  margin: 100px 20px;
+}
+
+.col-one {
+ float: left;
+}
+
+.dog-two {
+}
+
+.p-one {
   text-align: center;
-  display: inline;
+}
+
+.dog-titles {
+  text-align: center;
+  
 }
 
 .good-dogs {
   height: 200px;
   width: 200px;
   border-radius: 100%;
-  border: 3px solid #528ca4;
-  display: inline;
+  border: 3px solid #528ca4;  
+  display: block;
+  margin: auto;
 }
 
-.dog-2 {
-position: relative;
-left: 20px;
+.para {
+ width: 300px;
+ magin: auto;
 }
 
-.dog-3 {
-position: relative;
-left: 60px;
+.bottom-boxes {
+  
 }
 
-.dog-4 {
-  position: relative;
-  left: 100px;
+.col-three {
+ float: right;
 }
+
+/*being footer styling*/
 
 footer {
   background-color: #528ca4;
   height: 250px;
+  text-align: center;
+}
+
+.social-div {
+  padding: 50px;
 }
 
 h4 {
   color: white;
 }
 
-ul {
-  display: inline;
-  padding: 10px 50px;
-  
+.text-bottom,
+.social-icons {
+  margin: 10px;
 }
 
-.para {
-  display: inline;
-}
-
-.p-one{
-position: relative;
-left: 20px;
-}
-
-.p-two{
-position: relative;
-left: 60px;
-}
-
-.p-three{
-position: relative;
-left: 100px;
+.linking {
+  text-decoration: underline;
 }
