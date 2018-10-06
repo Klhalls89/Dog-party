@@ -11,5 +11,7 @@ Note: Do not use CSS flex-box or grid for this project (If you don’t know what
 
 Next Steps
 Start out focusing on the HTML using semantic tags and creating a clean structure.
-Then focus on styling your site like a boss :smirk:
+Then focus on styling your site like a boss
 Finally, create a README.md file making sure to include the comp as well as a picture of your site
+
+![dog-party](https://user-images.githubusercontent.com/41968928/46574649-cb075200-c963-11e8-96d4-f5c96809dcb1.png)
