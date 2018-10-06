@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*nav styles*/
+/* navigation bar styles */
 
 nav {
   background-color: #a3dee4;
@@ -10,7 +10,7 @@ nav {
   width: 100vw;
 }
 
-.icon-div {
+.icon-sect {
   position: absolute;
   left: 10px;
 }
@@ -23,7 +23,7 @@ nav {
   width: 40px;
 }
 
-.nav-word-div {
+.nav-word-sect {
  float: right;
 }
 
@@ -33,104 +33,96 @@ nav {
   padding: 20px 15px;
 }
 
-/*header section style*/
+/* page header style */
 
 header {
   background-image: url(images/park.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 500px;
   width: 100vw;
 }
 
-.header-div {
-  padding: 100px 0px;
-}
-
-h1 {
-  text-align: center
+.header-sect {
+  padding: 50px 0px;
 }
 
 .title-head {
-  font-size: 30pt;
-  margin: auto;
+  font-size: 25pt;
+  margin: 0px auto;
+  text-align: center
 }
 
 .main-dog {
-  display: block;
   border-radius: 100%;
   border: 5px solid #528ca4;
-  margin: 20px auto;
+  display: block;
+  margin: 20px auto 10px auto;
 }
 
 .text-box {
-  text-align: center;
-  height: 20px;
-  width: 120px;
   background-color: white;
   border: #528ca4 solid 5px;
   color: #528ca4;
+  font-size: 14pt;
+  height: 20px;
   margin: auto;
-  
+  padding: 5px;
+  text-align: center;
+  width: 130px; 
 }
 
-/*Begin style for main section of page*/
+/* main page style */
 
 main {
-  height: 450px;
+  height: 525px;
 }
 
-.three-dog-div {
-  margin: 100px 20px;
+.three-dog-sect {
+  margin: 50px auto 20px auto;
 }
 
-.col-one {
- float: left;
-}
-
-.dog-two {
-}
-
-.p-one {
-  text-align: center;
+.col {
+  float: left;
+  height: 100%;
+  width: calc(100%/3);
 }
 
 .dog-titles {
   text-align: center;
-  
 }
 
 .good-dogs {
-  height: 200px;
-  width: 200px;
   border-radius: 100%;
   border: 3px solid #528ca4;  
   display: block;
-  margin: auto;
+  height: 225px;
+  margin: 20px auto;
+  width: 225px;
 }
 
 .para {
+ margin: auto;
+ text-align: center;
  width: 300px;
- magin: auto;
 }
 
 .bottom-boxes {
-  
+  margin: 20px auto;
+  width: 120px;
+
 }
 
-.col-three {
- float: right;
-}
 
-/*being footer styling*/
+/* page footer styles */
 
 footer {
   background-color: #528ca4;
-  height: 250px;
+  height: 300px;
   text-align: center;
 }
 
-.social-div {
+.social-sect {
   padding: 50px;
 }
 
@@ -138,11 +130,11 @@ h4 {
   color: white;
 }
 
-.text-bottom,
 .social-icons {
-  margin: 10px;
+  padding: 50px 25px;
 }
 
 .linking {
+  padding-bottom: 20px; 
   text-decoration: underline;
 }
